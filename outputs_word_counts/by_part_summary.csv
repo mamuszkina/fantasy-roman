@@ -1,10 +1,10 @@
 part,sentences,word_total,word_sentences_with_1plus,cooc_sentences,cooc_min_count_total
 DEUXIÈME PARTIE,1636,0,0,0,0
-Deuxième partie,7009,1,1,0,0
-PREMIÈRE PARTIE,2197,0,0,0,0
-Première partie,6916,13,13,0,0
-QUATRIÈME PARTIE,52491,1484,1478,1,1
-Quatrième partie,3524,12,12,0,0
+Deuxième partie,7009,3,3,0,0
+PREMIÈRE PARTIE,2197,4,4,0,0
+Première partie,6916,0,0,0,0
+QUATRIÈME PARTIE,52491,4,4,0,0
+Quatrième partie,3524,0,0,0,0
 TROISIÈME PARTIE,1945,0,0,0,0
-Troisième partie,57096,1740,1728,0,0
+Troisième partie,57096,9,9,0,0
 Unknown,36,0,0,0,0

@@ -54,13 +54,7 @@ QUESTIONS :
 
 \- Est-ce que les femmes ont le même rôle que les hommes ?
 
- 	--> Noms de métiers
-
-
-
-
-
-Comparer réponses avec pern et avec stephen king (grossièrement pour commencer)
+ 	--> Noms de métiers et de hiérarchie
 
 
 
@@ -75,6 +69,11 @@ attention à l'appostrophe devant les noms de maitres dragons
 "vous connaissez mon fils, Horon, n'est-ce pas ?" --> nom associé mais dur à voir
 
 
+
+Fin du texte écrit :
+
+* Ligne 50 114 à 50 473
+* Ligne 132 223 à 132 851
 
 
 
