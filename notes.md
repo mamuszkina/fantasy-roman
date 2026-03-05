@@ -66,7 +66,7 @@ Comparer réponses avec pern et avec stephen king (grossièrement pour commencer
 
 
 
-Soucis à noter : 
+Soucis à noter :
 
 si des persos ont des noms double ?
 
@@ -80,7 +80,9 @@ attention à l'appostrophe devant les noms de maitres dragons
 
 Méthodo pour noms et genres :
 
-* Répertorier noms avec annexe de fin 
-* La rendre propre manuellement 
+* Répertorier noms avec annexe de fin
+* La rendre propre manuellement
 * Regarder les noms manuellement pour voir à quel genre il est associé, NA si pas possibilité de trancher (masculin générique)
 * suite : code pour noter les noms pas écrits (avec la casse)
+* Quand "Maître", homme (car les femmes sont bien "Maîtresse")
+* Seigneur = homme car sinon dame
