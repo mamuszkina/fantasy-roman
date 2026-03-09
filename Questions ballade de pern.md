@@ -68,6 +68,8 @@ attention à l'appostrophe devant les noms de maitres dragons
 
 "vous connaissez mon fils, Horon, n'est-ce pas ?" --> nom associé mais dur à voir
 
+"Monsieur Truc se leva d'un bond, sa femme cramponnée à son bras"
+
 
 
 Fin du texte écrit :
