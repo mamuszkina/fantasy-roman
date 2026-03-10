@@ -58,6 +58,10 @@ QUESTIONS :
 
 
 
+\- Est-ce que le nom des femmes est plus souvent lié à celui d'un homme (en mode c'est toujours la soeur de ou la femme de, alors que c'est moins le cas chez les hommes) ?
+
+
+
 
 
 Soucis à noter :
@@ -69,6 +73,8 @@ attention à l'appostrophe devant les noms de maitres dragons
 "vous connaissez mon fils, Horon, n'est-ce pas ?" --> nom associé mais dur à voir
 
 "Monsieur Truc se leva d'un bond, sa femme cramponnée à son bras"
+
+"fanée avant l'âge" revient au moins deux fois lol
 
 
 
