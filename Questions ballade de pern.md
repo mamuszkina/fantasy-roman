@@ -40,7 +40,7 @@ QUESTIONS :
 
 \- Est-ce que les femmes sont plus associées à la parentalité que les hommes ?
 
- 	--> Chps lexical parentalité
+ 	--> Chps lexical parentalité (enfants, petits, bambins, fils, fille, nouveau-né, maternel, paternel)
 
 
 
