@@ -18,7 +18,7 @@ QUESTIONS :
 
 
 
-\- Sur la totalité des persos, cb d'hommes et cb de femmes ?
+\- Sur la totalité des persos, cb d'hommes et cb de femmes ? ==> **données faites**
 
  	--> Noter noms persos et genre persos sur tous les persos
 
@@ -26,9 +26,9 @@ QUESTIONS :
 
 
 
-\- Est-ce que les femmes sont plus sacrifiables que les hommes ?
+\- Est-ce que les femmes sont plus sacrifiables que les hommes ? ==> **données faites**
 
- 	--> Chps lexical de la mort, puis recherche manuelle.
+ 	--> Chps lexical de la mort ("décéder", "mourir", "disparaître", "disparu", "tuer", "assassiner", "deuil", "endeuiller", "funèbre", "enterrement", "défunt", "dépouille", "n'est plus"), puis recherche manuelle.
 
 
 
@@ -58,17 +58,13 @@ QUESTIONS :
 
 
 
-\- Est-ce que le nom des femmes est plus souvent lié à celui d'un homme (en mode c'est toujours la soeur de ou la femme de, alors que c'est moins le cas chez les hommes) ?
-
-
-
 
 
 Soucis à noter :
 
-si des persos ont des noms double ?
+Certains persos ont des noms double => plusieurs colonnes pour noter les noms
 
-attention à l'appostrophe devant les noms de maitres dragons
+Appostrophe devant les noms de maitres dragons => Pris en compte dans l'extraction
 
 "vous connaissez mon fils, Horon, n'est-ce pas ?" --> nom associé mais dur à voir
 
@@ -93,3 +89,4 @@ Méthodo pour noms et genres :
 * suite : code pour noter les noms pas écrits (avec la casse)
 * Quand "Maître", homme (car les femmes sont bien "Maîtresse")
 * Seigneur = homme car sinon dame
+

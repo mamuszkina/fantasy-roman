@@ -1,0 +1,27 @@
+Analyse de texte méthodo : 
+
+CREER LE TEXTE : 
+- Chercher sur libgen (ou autre) un exemplaire du livre de qualité.
+- Convertir en PDF si il n'est pas déjà en PDF 
+- Convertir en csv avec le code "pdf_ocr_to_sentences_table.py" 
+==> Le fichier csv est composé d'une ligne = une phrase dans le roman 
+
+
+EXTRAIRE LES NOMS : 
+- Créer un autre fichier avec le code "Extract sentence.py"
+==> On a un fichier csv avec une extraction de toutes les phrases qui ont une majuscule mais pas devant un point = les noms propres 
+- les reporter dans un autre fichier csv pour écrire les noms des persos. Reporter aussi les noms propres qui ne sont pas des noms de persos pour refaire tourner le code en excluant ces mots si nécessaire. 
+
+GENRER LES PERSONNAGES : 
+- Chercher pour chaque perso sa présence dans le texte pour déterminer son genre et le rentrer dans une colonne (homme/femme/na)
+
+LEMMATISER LE TEXTE : 
+Pour le reste, besoin d'entrer du champs lexical: donc besoin de lemmatiser le texte. 
+- Sur le fichier csv des textes avec une phrase par ligne, code "lemmatize.py" pour créer un autre fichier ("livre.lemma.csv")
+
+NOMBRE DE MORTS : 
+- Passer le texte lemmatisé sous le code "pern_personnages_mots_cibles" et rentrer le champs lexical de la mort ("décéder", "mourir", "disparaître", "disparu", "tuer", "assassiner", "deuil", "endeuiller", "funèbre", "enterrement", "défunt", "dépouille", "n'est plus")
+- Chercher manuellement quel nom est associé à la mort et créer une colonne TRUE quand le perso est mort dans le document de base 
+
+OCCURENCES DES PERSOS :
+- code "pern8"
