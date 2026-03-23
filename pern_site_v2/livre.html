@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorer un livre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="top-nav"><a href="index.html">← Accueil</a></nav>
+    <section class="hero-card compact">
+      <p class="eyebrow">Exploration</p>
+      <h1>Explorer un livre</h1>
+      <p>Sélectionnez un titre pour afficher les tableaux générés à partir des CSV du dossier correspondant.</p>
+    </section>
+
+    <section class="panel">
+      <label for="bookSelect">Livre</label>
+      <select id="bookSelect"></select>
+      <button id="loadBookBtn" class="solid-btn">Afficher</button>
+    </section>
+
+    <section id="bookContent" class="stack"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

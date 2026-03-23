@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparer deux livres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="top-nav"><a href="index.html">← Accueil</a></nav>
+    <section class="hero-card compact">
+      <p class="eyebrow">Comparaison</p>
+      <h1>Comparer deux livres</h1>
+      <p>Choisissez deux corpus disponibles pour comparer rapidement les mêmes tableaux.</p>
+    </section>
+
+    <section class="panel compare-controls">
+      <div>
+        <label for="bookA">Livre A</label>
+        <select id="bookA"></select>
+      </div>
+      <div>
+        <label for="bookB">Livre B</label>
+        <select id="bookB"></select>
+      </div>
+      <button id="compareBtn" class="solid-btn">Comparer</button>
+    </section>
+
+    <section id="comparisonContent" class="compare-grid"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

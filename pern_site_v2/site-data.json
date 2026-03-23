@@ -1,0 +1,126 @@
+{
+  "books": [
+    {
+      "nom": "La ballade de Pern",
+      "slug": "la-ballade-de-pern",
+      "folder": "la-ballade-de-pern",
+      "description": "Roman(s) actuellement disponibles pour l'exploration des tableaux de genre.",
+      "tableaux": [
+        {
+          "id": "repartition",
+          "titre": "Répartition des personnages par genre",
+          "colonnes": [
+            "Genre",
+            "Effectif",
+            "Pourcentage (%)"
+          ],
+          "lignes": [
+            [
+              "Homme",
+              800,
+              72.7
+            ],
+            [
+              "Femme",
+              300,
+              27.3
+            ]
+          ],
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des personnages recensés. Test du χ² contre une répartition égale entre genres observés : χ² = 227.27, p < 0,001."
+        },
+        {
+          "id": "mortalite",
+          "titre": "Mortalité des personnages selon le genre",
+          "colonnes": [
+            "Genre",
+            "Morts",
+            "Total",
+            "Taux de mortalité (%)"
+          ],
+          "lignes": [
+            [
+              "Homme",
+              100,
+              800,
+              12.5
+            ],
+            [
+              "Femme",
+              100,
+              300,
+              33.3
+            ]
+          ],
+          "note": "Note. Le taux de mortalité correspond à morts / total dans chaque groupe. Test exact de Fisher sur le tableau mort/survie × genre : p < 0,001. À titre indicatif, χ² = 62.26, p < 0,001."
+        },
+        {
+          "id": "configurations",
+          "titre": "Configurations de présence des personnages",
+          "colonnes": [
+            "Catégorie",
+            "Effectif",
+            "Pourcentage (%)"
+          ],
+          "lignes": [
+            [
+              "Homme seul",
+              27132,
+              49.9
+            ],
+            [
+              "Femme seule",
+              10132,
+              18.6
+            ],
+            [
+              "Homme avec homme",
+              9380,
+              17.3
+            ],
+            [
+              "Femme avec femme",
+              1527,
+              2.8
+            ],
+            [
+              "Homme avec femme",
+              6188,
+              11.4
+            ]
+          ],
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des configurations observées. Test du χ² contre une répartition égale entre catégories : χ² = 34624.45, p < 0,001."
+        },
+        {
+          "id": "ttr",
+          "titre": "Diversité lexicale associée aux personnages selon le genre",
+          "colonnes": [
+            "Genre",
+            "Tokens",
+            "Types",
+            "TTR (%)"
+          ],
+          "lignes": [
+            [
+              "Femme",
+              52,
+              42,
+              80.8
+            ],
+            [
+              "Homme",
+              98,
+              85,
+              86.7
+            ]
+          ],
+          "note": "Note. Le TTR (type-token ratio) est présenté en pourcentage. Aucun test de significativité n'est calculé automatiquement pour ce tableau ; un protocole de rééchantillonnage ou une modélisation dédiée serait préférable."
+        }
+      ]
+    }
+  ],
+  "voteOptions": [
+    "Le Seigneur des anneaux"
+  ],
+  "methodologyGithubUrl": "https://github.com/votre-compte/votre-depot",
+  "siteTitle": "Cartographie de genre dans les œuvres littéraires"
+}

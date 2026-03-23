@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vote</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="top-nav"><a href="index.html">← Accueil</a></nav>
+    <section class="hero-card compact">
+      <p class="eyebrow">Participation</p>
+      <h1>Voter pour le prochain livre</h1>
+      <p>
+        Cette page utilise Supabase quand il est configuré. Sinon, elle continue de fonctionner
+        localement dans le navigateur pour les tests.
+      </p>
+    </section>
+
+    <section class="panel stack">
+      <div id="voteMode" class="status-box">Chargement…</div>
+      <form id="voteForm" class="stack gap-sm"></form>
+      <button id="voteBtn" class="solid-btn">Voter</button>
+      <div id="voteMessage" class="muted"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Résultats</h2>
+      <div id="voteResults"></div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
