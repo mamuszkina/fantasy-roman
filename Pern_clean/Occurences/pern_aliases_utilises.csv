@@ -1,10 +1,72 @@
 ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliases
+6,Adessa,,,,6,Adessa
+33,Armald,,,,33,Armald
+49,B’ner,,,,49,B’ner
+67,Barly,,,,67,Barly
+88,Berchar,Berch,,,88,Berchar Berch | Berchar | Berch
+96,Betrice,,,,96,Betrice
+119,Brare,,,,119,Brare
+143,C’gan,,,,143,C’gan
+151,Caesar,Galliani,,,151,Caesar Galliani | Galliani | Caesar
+162,Carola,,,,162,Carola
+164,Catherine,Radelin,Doyle,,164,Catherine Radelin Doyle | Catherine Radelin | Catherine Doyle | Radelin Doyle | Catherine | Radelin | Doyle
+167,Ch’mon,,,,167,Ch’mon
+246,Dowell,,,,246,Dowell
+269,Esselin,,,,269,Esselin
+279,F’lon,Falloner,,,279,F’lon Falloner | Falloner | F’lon
+291,Fanna,,,,291,Fanna
+293,Farevene,,,,293,Farevene
+296,Faroguy,,,,296,Faroguy
+298,Fax,,,,298,Fax
+335,G’lanar,,,,335,G’lanar
+364,Gemma,,,,364,Gemma
+366,Gennell,,,,366,Gennell
+373,Gledia,,,,373,Gledia
+386,Grogellan,,,,386,Grogellan
+451,Jim,Tillek,James,,451,Jim Tillek James | Tillek James | Jim Tillek | Jim James | Tillek | James | Jim
+461,Jora,,,,461,Jora
+467,K’dall,,,,467,K’dall
+477,Kale,,,,477,Kale
+487,Kasia,,,,487,Kasia
+492,Kenjo,Fusaiyuki,,,492,Kenjo Fusaiyuki | Fusaiyuki | Kenjo
+501,Kista,,,,501,Kista
+516,L’mal,,,,516,L’mal
+533,Larna,Lama,,,533,Larna Lama | Larna | Lama
+569,Lucy,Tubberman,,,569,Lucy Tubberman | Tubberman | Lucy
+577,M’odon,,,,577,M’odon
+590,Maidir,,,,590,Maidir
+604,Marco,Galliani,,,604,Marco Galliani | Galliani | Marco
+614,Matsen,,,,614,Matsen
+625,Mercia,,,,625,Mercia
+627,Merelan,,,,627,Merelan
+629,Merin,,,,629,Merin
+630,Meron,,,,630,Meron
+637,Milla,,,,637,Milla
+643,Moreta,Moretta,,,643,Moreta Moretta | Moretta | Moreta
+686,Norman,,,,686,Norman
+723,Pendra,,,,723,Pendra
+734,Petiron,,,,734,Petiron
+779,Robinton,Rob,Robie,,779,Robinton Rob Robie | Robinton Robie | Robinton Rob | Rob Robie | Robinton | Robie | Rob
+787,Runel,,,,787,Runel
+797,S’loner,,,,797,S’loner
+807,Sallah,,,,807,Sallah
+853,Silma,,,,853,Silma
+873,Stev,Kimmer,,,873,Stev Kimmer | Kimmer | Stev
+881,Suriana,,,,881,Suriana
+893,T’kul,T’kull,,,893,T’kul T’kull | T’kull | T’kul
+904,T’ron,,,,904,T’ron
+913,Talpan,,,,913,Talpan
+915,Tarathel,,,,915,Tarathel
+922,Ted ,Tubberman,Tubbermann,,922,Ted Tubberman Tubbermann | Tubberman Tubbermann | Ted Tubbermann | Ted Tubberman | Tubbermann | Tubberman | Ted
+933,Thella,,,,933,Thella
+969,Trume,,,,969,Trume
+990,Varena,Vanira,Nanira,,990,Varena Vanira Nanira | Vanira Nanira | Varena Nanira | Varena Vanira | Nanira | Vanira | Varena
+991,Varney,,,,991,Varney
 1,A. C.,Sopers,,,1,A. C. Sopers | Sopers | A. C.
 2,A’dan,,,,2,A’dan
 3,A’murry,,,,3,A’murry
 4,Abula,,,,4,Abula
 5,Abuna,,,,5,Abuna
-6,Adessa,,,,6,Adessa
 7,Adrea,Beljeth,,,7,Adrea Beljeth | Beljeth | Adrea
 8,Afnor,,,,8,Afnor
 9,Aida,,,,9,Aida
@@ -31,7 +93,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 30,Anta,,,,30,Anta
 31,Aramina,Mina,Ara,,31,Aramina Mina Ara | Aramina Mina | Aramina Ara | Mina Ara | Aramina | Mina | Ara
 32,Aranya,,,,32,Aranya
-33,Armald,,,,33,Armald
 34,Arminet,,,,34,Arminet
 35,Armor,,,,35,Armor
 36,Arnor,,,,36,Arnor
@@ -47,7 +108,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 46,B’greal,,,,46,B’greal
 47,B’lerion,,,,47,B’lerion
 48,B’naj,,,,48,B’naj
-49,B’ner,,,,49,B’ner
 50,B’nurrin,,,,50,B’nurrin
 51,B’rant,,,,51,B’rant
 52,B’refli,,,,52,B’refli
@@ -65,7 +125,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 64,Bardie,,,,64,Bardie
 65,Bargen,,,,65,Bargen
 66,Barla,,,,66,Barla
-67,Barly,,,,67,Barly
 68,Barndy,,,,68,Barndy
 69,Barr,Hamil,,,69,Barr Hamil | Hamil | Barr
 70,Bart,Lemos,,,70,Bart Lemos | Lemos | Bart
@@ -86,7 +145,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 85,Benini,,,,85,Benini
 86,Benis,,,,86,Benis
 87,Benoria,,,,87,Benoria
-88,Berchar,Berch,,,88,Berchar Berch | Berchar | Berch
 89,Berdine,,,,89,Berdine
 90,Besel,,,,90,Besel
 91,Besic,,,,91,Besic
@@ -94,7 +152,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 93,Bessera,,,,93,Bessera
 94,Bestrum,,,,94,Bestrum
 95,Bethany,,,,95,Bethany
-96,Betrice,,,,96,Betrice
 97,Betsy,,,,97,Betsy
 98,Betty,Musgrave,Blake,,98,Betty Musgrave Blake | Betty Musgrave | Musgrave Blake | Betty Blake | Musgrave | Betty | Blake
 99,Bill,Duff,,,99,Bill Duff | Bill | Duff
@@ -117,7 +174,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 116,Brace,,,,116,Brace
 117,Brahil,,,,117,Brahil
 118,Brand,,,,118,Brand
-119,Brare,,,,119,Brare
 120,Brashia,,,,120,Brashia
 121,Bravonner,,,,121,Bravonner
 122,Breda,,,,122,Breda
@@ -141,7 +197,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 140,Brosil,,,,140,Brosil
 141,Brudegan,Bruddie,,,141,Brudegan Bruddie | Brudegan | Bruddie
 142,Burdion,,,,142,Burdion
-143,C’gan,,,,143,C’gan
 144,C’reel ,,,,144,C’reel
 145,C’rob,,,,145,C’rob
 146,C’tarel,,,,146,C’tarel
@@ -149,7 +204,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 148,C’vert,,,,148,C’vert
 149,C’vrel,,,,149,C’vrel
 150,Cabot,Francis,Carter,,150,Cabot Francis Carter | Francis Carter | Cabot Francis | Cabot Carter | Francis | Carter | Cabot
-151,Caesar,Galliani,,,151,Caesar Galliani | Galliani | Caesar
 152,Calewis,,,,152,Calewis
 154,Camo,,,,154,Camo
 153,Camo,,,,153,Camo
@@ -160,12 +214,9 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 159,Capiam,,,,159,Capiam
 160,Cara,,,,160,Cara
 161,Carol,Duff,Vassaloe,,161,Carol Duff Vassaloe | Carol Vassaloe | Duff Vassaloe | Carol Duff | Vassaloe | Carol | Duff
-162,Carola,,,,162,Carola
 163,Caselon,,,,163,Caselon
-164,Catherine,Radelin,Doyle,,164,Catherine Radelin Doyle | Catherine Radelin | Catherine Doyle | Radelin Doyle | Catherine | Radelin | Doyle
 165,Cathy,,,,165,Cathy
 166,Celina,,,,166,Celina
-167,Ch’mon,,,,167,Ch’mon
 168,Chad,,,,168,Chad
 169,Chaila,Zavior,Kimmage,,169,Chaila Zavior Kimmage | Chaila Kimmage | Zavior Kimmage | Chaila Zavior | Kimmage | Chaila | Zavior
 170,Chaldon,,,,170,Chaldon
@@ -244,7 +295,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 243,Dorai,,,,243,Dorai
 244,Doral,,,,244,Doral
 245,Dorse,,,,245,Dorse
-246,Dowell,,,,246,Dowell
 247,Drake,Bonneau,,,247,Drake Bonneau | Bonneau | Drake
 248,Dresda,,,,248,Dresda
 249,Dugall,,,,249,Dugall
@@ -267,7 +317,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 266,Erkin,,,,266,Erkin
 267,Erragon,,,,267,Erragon
 268,Esrella,,,,268,Esrella
-269,Esselin,,,,269,Esselin
 270,Evan,,,,270,Evan
 271,Evarel,,,,271,Evarel
 272,Evelene,,,,272,Evelene
@@ -277,7 +326,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 276,F’gal,,,,276,F’gal
 277,F’lar,Falla,Fallarnon,,277,F’lar Falla Fallarnon | Falla Fallarnon | F’lar Fallarnon | F’lar Falla | Fallarnon | Falla | F’lar
 278,F’lessan,,,,278,F’lessan
-279,F’lon,Falloner,,,279,F’lon Falloner | Falloner | F’lon
 280,F’neldril,,,,280,F’neldril
 281,F’nor,F’lor,,,281,F’nor F’lor | F’lor | F’nor
 282,F’rad,,,,282,F’rad
@@ -289,14 +337,10 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 288,Famanoran,,,,288,Famanoran
 289,Famira,,,,289,Famira
 290,Fandarel,,,,290,Fandarel
-291,Fanna,,,,291,Fanna
 292,Farelly,,,,292,Farelly
-293,Farevene,,,,293,Farevene
 294,Farley,,,,294,Farley
 295,Farnol,,,,295,Farnol
-296,Faroguy,,,,296,Faroguy
 297,Faselly,,,,297,Faselly
-298,Fax,,,,298,Fax
 299,Federen,,,,299,Federen
 300,Feldon,,,,300,Feldon
 301,Felena,,,,301,Felena
@@ -333,7 +377,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 332,G’dened,G’neded,,,332,G’dened G’neded | G’dened | G’neded
 333,G’don,,,,333,G’don
 334,G’drel,,,,334,G’drel
-335,G’lanar,,,,335,G’lanar
 336,G’nag,,,,336,G’nag
 337,G’narish,,,,337,G’narish
 338,G’ranad,,,,338,G’ranad
@@ -362,16 +405,13 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 361,Gedenase,,,,361,Gedenase
 362,Geger,,,,362,Geger
 363,Gellim,,,,363,Gellim
-364,Gemma,,,,364,Gemma
 365,Genjon,,,,365,Genjon
-366,Gennell,,,,366,Gennell
 367,Germathen,,,,367,Germathen
 368,Gifflen,,,,368,Gifflen
 369,Ginia,,,,369,Ginia
 370,Gisa,,,,370,Gisa
 371,Glammie,,,,371,Glammie
 372,Glay,,,,372,Glay
-373,Gledia,,,,373,Gledia
 374,Gomalsi,,,,374,Gomalsi
 375,Gorazde,,,,375,Gorazde
 376,Gorby,,,,376,Gorby
@@ -384,7 +424,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 383,Grevil,,,,383,Grevil
 384,Grisella,,,,384,Grisella
 385,Grodon,,,,385,Grodon
-386,Grogellan,,,,386,Grogellan
 387,Groghe,,,,387,Groghe
 388,Gyorgy,,,,388,Gyorgy
 389,H’ages,,,,389,H’ages
@@ -436,7 +475,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 435,Janissian,,,,435,Janissian
 436,Jarrol,,,,436,Jarrol
 438,Jaxom,Jax,,,438,Jaxom Jax | Jaxom | Jax
-437,Jaxom,,,,437,Jaxom
 439,Jayge,Lilcamp,,,439,Jayge Lilcamp | Lilcamp | Jayge
 440,Jemmy,,,,440,Jemmy
 441,Jenfa,,,,441,Jenfa
@@ -449,7 +487,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 448,Jess,,,,448,Jess
 449,Jessuan,,,,449,Jessuan
 450,Jez,,,,450,Jez
-451,Jim,Tillek,James,,451,Jim Tillek James | Tillek James | Jim Tillek | Jim James | Tillek | James | Jim
 452,Jiro,Akamoto,,,452,Jiro Akamoto | Akamoto | Jiro
 453,Jissamy,,,,453,Jissamy
 454,Jivan,,,,454,Jivan
@@ -459,13 +496,11 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 458,Johnny ,Greene,,,458,Johnny Greene | Greene | Johnny
 459,Jol,,,,459,Jol
 460,Jonno,,,,460,Jonno
-461,Jora,,,,461,Jora
 462,Josetta,,,,462,Josetta
 463,Ju,Adjai,Adjar,,463,Ju Adjai Adjar | Adjai Adjar | Ju Adjai | Ju Adjar | Adjai | Adjar | Ju
 464,Jubb,,,,464,Jubb
 465,Jule,,,,465,Jule
 466,Juvana,,,,466,Juvana
-467,K’dall,,,,467,K’dall
 468,K’dor,,,,468,K’dor
 469,K’dren,,,,469,K’dren
 470,K’drin,,,,470,K’drin
@@ -475,7 +510,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 474,K’van,,,,474,K’van
 475,K’vin,Kev,,,475,K’vin Kev | K’vin | Kev
 476,Kailey,,,,476,Kailey
-477,Kale,,,,477,Kale
 478,Kalem,,,,478,Kalem
 479,Kaljan,,,,479,Kaljan
 480,Kalvi,,,,480,Kalvi
@@ -485,12 +519,10 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 484,Kanadin,K’din,,,484,Kanadin K’din | Kanadin | K’din
 485,Karenchok,,,,485,Karenchok
 486,Kashman,,,,486,Kashman
-487,Kasia,,,,487,Kasia
 488,Kathy,Duff,,,488,Kathy Duff | Kathy | Duff
 489,Kayla,,,,489,Kayla
 490,Keita,,,,490,Keita
 491,Kenalas,,,,491,Kenalas
-492,Kenjo,Fusaiyuki,,,492,Kenjo Fusaiyuki | Fusaiyuki | Kenjo
 493,Kepiru,,,,493,Kepiru
 494,Ker,,,,494,Ker
 495,Kern,,,,495,Kern
@@ -499,7 +531,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 498,Kinsale,,,,498,Kinsale
 499,Kinver,,,,499,Kinver
 500,Kirnety,,,,500,Kirnety
-501,Kista,,,,501,Kista
 502,Kit,Ping,Kitti,,502,Kit Ping Kitti | Ping Kitti | Kit Kitti | Kit Ping | Kitti | Ping | Kit
 503,Kitral,,,,503,Kitral
 504,Kitrin,,,,504,Kitrin
@@ -514,7 +545,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 513,Kylara,,,,513,Kylara
 514,Kylos,,,,514,Kylos
 515,L’bol,,,,515,L’bol
-516,L’mal,,,,516,L’mal
 517,L’rad,,,,517,L’rad
 518,L’rayl,,,,518,L’rayl
 519,L’sur,,,,519,L’sur
@@ -531,7 +561,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 530,Larad,,,,530,Larad
 532,Laradian,,,,532,Laradian
 531,Laradian,,,,531,Laradian
-533,Larna,Lama,,,533,Larna Lama | Larna | Lama
 534,Laudey,,,,534,Laudey
 535,Lauley,,,,535,Lauley
 536,Laura,,,,536,Laura
@@ -567,7 +596,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 566,Lozell,,,,566,Lozell
 567,Luccha,,,,567,Luccha
 568,Lucil,,,,568,Lucil
-569,Lucy,Tubberman,,,569,Lucy Tubberman | Tubberman | Lucy
 570,Lur,,,,570,Lur
 571,M’barak,,,,571,M’barak
 572,M’dani,,,,572,M’dani
@@ -575,7 +603,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 574,M’hall,,,,574,M’hall
 575,M’leng,,,,575,M’leng
 576,M’ling,,,,576,M’ling
-577,M’odon,,,,577,M’odon
 578,M’rak,,,,578,M’rak
 579,M’rand,,,,579,M’rand
 580,M’ray,,,,580,M’ray
@@ -588,7 +615,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 587,Macester,,,,587,Macester
 588,Macy,,,,588,Macy
 589,Magalia,,,,589,Magalia
-590,Maidir,,,,590,Maidir
 591,Mairi,,,,591,Mairi
 592,Mairian,,,,592,Mairian
 593,Maizella,,,,593,Maizella
@@ -602,7 +628,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 601,Marcator,,,,601,Marcator
 602,Marchane,,,,602,Marchane
 603,Marcine,,,,603,Marcine
-604,Marco,Galliani,,,604,Marco Galliani | Galliani | Marco
 605,Mardra,,,,605,Mardra
 606,Mardy,,,,606,Mardy
 607,Marella,,,,607,Marella
@@ -612,7 +637,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 611,Marlifin,,,,611,Marlifin
 612,Marshal,,,,612,Marshal
 613,Mary,Tubberman,,,613,Mary Tubberman | Tubberman | Mary
-614,Matsen,,,,614,Matsen
 615,Mattew,Matt,,,615,Mattew Matt | Mattew | Matt
 616,Mavi,,,,616,Mavi
 617,Maxilant,,,,617,Maxilant
@@ -623,25 +647,19 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 622,Mekelroy,Pinch,,,622,Mekelroy Pinch | Mekelroy | Pinch
 623,Melongel,,,,623,Melongel
 624,Menolly,Nolly,Monolly,,624,Menolly Nolly Monolly | Menolly Monolly | Menolly Nolly | Nolly Monolly | Menolly | Monolly | Nolly
-625,Mercia,,,,625,Mercia
 626,Merdine,,,,626,Merdine
-627,Merelan,,,,627,Merelan
 628,Merika,,,,628,Merika
-629,Merin,,,,629,Merin
-630,Meron,,,,630,Meron
 631,Mesla,,,,631,Mesla
 632,Miata,,,,632,Miata
 633,Mibbut,,,,633,Mibbut
 634,Michael,,,,634,Michael
 635,Mick,,,,635,Mick
 636,Mickulin,,,,636,Mickulin
-637,Milla,,,,637,Milla
 638,Minnarden,,,,638,Minnarden
 639,Miridan,,,,639,Miridan
 640,Mirrim,,,,640,Mirrim
 641,Miskin,,,,641,Miskin
 642,Mislue,,,,642,Mislue
-643,Moreta,Moretta,,,643,Moreta Moretta | Moretta | Moreta
 644,Morif,,,,644,Morif
 645,Morilton,,,,645,Morilton
 646,Morin,,,,646,Morin
@@ -684,7 +702,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 683,Nip,,,,683,Nip
 684,Nora,Sejby,,,684,Nora Sejby | Sejby | Nora
 685,Norist,,,,685,Norist
-686,Norman,,,,686,Norman
 687,Nurevin,,,,687,Nurevin
 688,Nyassa,Clissmann,,,688,Nyassa Clissmann | Clissmann | Nyassa
 689,O’ney,,,,689,O’ney
@@ -721,7 +738,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 720,Pell,,,,720,Pell
 721,Pellomar,,,,721,Pellomar
 722,Pendora,,,,722,Pendora
-723,Pendra,,,,723,Pendra
 724,Pergamol,,,,724,Pergamol
 725,Perschar,Pershar,,,725,Perschar Pershar | Perschar | Pershar
 726,Persellan,,,,726,Persellan
@@ -732,7 +748,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 731,Petey,Pete,,,731,Petey Pete | Petey | Pete
 732,Peth,,,,732,Peth
 733,Petillo,,,,733,Petillo
-734,Petiron,,,,734,Petiron
 735,Phas,Radamanth,,,735,Phas Radamanth | Radamanth | Phas
 737,Piemur,,,,737,Piemur
 736,Piemur,,,,736,Piemur
@@ -777,7 +792,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 776,Rill,Nerilka,,,776,Rill Nerilka | Nerilka | Rill
 777,Riller,,,,777,Riller
 778,Robina,,,,778,Robina
-779,Robinton,Rob,Robie,,779,Robinton Rob Robie | Robinton Robie | Robinton Rob | Rob Robie | Robinton | Robie | Rob
 780,Roblyn,,,,780,Roblyn
 781,Robse,,,,781,Robse
 782,Rokayas,,,,782,Rokayas
@@ -785,7 +799,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 784,Rosheen,,,,784,Rosheen
 785,Rudi,Shwartz,Rudolph,,785,Rudi Shwartz Rudolph | Shwartz Rudolph | Rudi Rudolph | Rudi Shwartz | Rudolph | Shwartz | Rudi
 786,Rulyar,,,,786,Rulyar
-787,Runel,,,,787,Runel
 788,S’bran,,,,788,S’bran
 789,S’dra,,,,789,S’dra
 790,S’gar,,,,790,S’gar
@@ -795,7 +808,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 794,S’lel,,,,794,S’lel
 795,S’len,,,,795,S’len
 796,S’ligar,,,,796,S’ligar
-797,S’loner,,,,797,S’loner
 798,S’mon,Thomas,,,798,S’mon Thomas | Thomas | S’mon
 799,S’nan,,,,799,S’nan
 800,S’peren,,,,800,S’peren
@@ -805,7 +817,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 804,Sagassy,,,,804,Sagassy
 805,Sal,,,,805,Sal
 806,Salda,,,,806,Salda
-807,Sallah,,,,807,Sallah
 808,Sallah ,Telgar-Andiyar,,,808,Sallah Telgar-Andiyar | Telgar-Andiyar | Sallah
 809,Sallisha,,,,809,Sallisha
 810,Saltor,,,,810,Saltor
@@ -851,7 +862,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 850,Sigomal,,,,850,Sigomal
 851,Sigomel,,,,851,Sigomel
 852,Silga,,,,852,Silga
-853,Silma,,,,853,Silma
 854,Silon,,,,854,Silon
 855,Silton,,,,855,Silton
 856,Silvana,,,,856,Silvana
@@ -871,7 +881,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 870,Sparling,,,,870,Sparling
 871,St’ven,,,,871,St’ven
 872,Stella,,,,872,Stella
-873,Stev,Kimmer,,,873,Stev Kimmer | Kimmer | Stev
 874,Stinar,,,,874,Stinar
 875,Stolla,,,,875,Stolla
 876,Struan,,,,876,Struan
@@ -879,7 +888,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 878,Sucho,,,,878,Sucho
 879,Sue,Havers,,,879,Sue Havers | Havers | Sue
 880,Sufur,,,,880,Sufur
-881,Suriana,,,,881,Suriana
 882,Suze,,,,882,Suze
 883,Svenda,Olubushtu,,,883,Svenda Olubushtu | Olubushtu | Svenda
 884,Sydra,,,,884,Sydra
@@ -891,7 +899,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 890,T’gran,,,,890,T’gran
 891,T’grel,,,,891,T’grel
 892,T’kil,,,,892,T’kil
-893,T’kul,T’kull,,,893,T’kul T’kull | T’kull | T’kul
 894,T’lan,,,,894,T’lan
 895,T’ledon,,,,895,T’ledon
 896,T’lion,Gaddie,,,896,T’lion Gaddie | Gaddie | T’lion
@@ -902,25 +909,21 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 901,T’ran,,,,901,T’ran
 902,T’reb,,,,902,T’reb
 903,T’red,,,,903,T’red
-904,T’ron,,,,904,T’ron
 905,T’sen,,,,905,T’sen
-906,T'sum,,,,906,T'sum
+906,T’sum,,,,906,T’sum
 907,T’tel,T’lel,,,907,T’tel T’lel | T’lel | T’tel
 908,T’ton,,,,908,T’ton
 909,Tagetarl,Tag,,,909,Tagetarl Tag | Tagetarl | Tag
 910,Tai,,,,910,Tai
 911,Talina,,,,911,Talina
 912,Talmor,,,,912,Talmor
-913,Talpan,,,,913,Talpan
 914,Tanus,,,,914,Tanus
-915,Tarathel,,,,915,Tarathel
 916,Targus,,,,916,Targus
 917,Tarrie,Chernoff,,,917,Tarrie Chernoff | Chernoff | Tarrie
 918,Tarvi,Andiyar,Andivar,,918,Tarvi Andiyar Andivar | Andiyar Andivar | Tarvi Andivar | Tarvi Andiyar | Andivar | Andiyar | Tarvi
 919,Tashkovich,,,,919,Tashkovich
 920,Tashvi,,,,920,Tashvi
 921,Tawkin,,,,921,Tawkin
-922,Ted ,Tubberman,Tubbermann,,922,Ted Tubberman Tubbermann | Tubberman Tubbermann | Ted Tubbermann | Ted Tubberman | Tubbermann | Tubberman | Ted
 923,Tegger,,,,923,Tegger
 924,Tela,,,,924,Tela
 925,Tellani,,,,925,Tellani
@@ -931,7 +934,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 930,Tesner,,,,930,Tesner
 931,Texur,,,,931,Texur
 932,Thea,,,,932,Thea
-933,Thella,,,,933,Thella
 934,Theng,,,,934,Theng
 935,Théo,Force,,,935,Théo Force | Force | Théo
 936,Theskin,,,,936,Theskin
@@ -967,7 +969,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 966,Tranilty,,,,966,Tranilty
 967,Trelbin,,,,967,Trelbin
 968,Triana,,,,968,Triana
-969,Trume,,,,969,Trume
 970,Tuck,,,,970,Tuck
 972,Tuero,,,,972,Tuero
 971,Tuero,,,,971,Tuero
@@ -988,8 +989,6 @@ ID unique,Noms humains,Second nom,Troisième nom,Quatrième nom,ID unique,aliase
 987,Valrol,,,,987,Valrol
 988,Vandentine,,,,988,Vandentine
 989,Vander,,,,989,Vander
-990,Varena,Vanira,Nanira,,990,Varena Vanira Nanira | Vanira Nanira | Varena Nanira | Varena Vanira | Nanira | Vanira | Varena
-991,Varney,,,,991,Varney
 992,Venabil,,,,992,Venabil
 993,Vendross,,,,993,Vendross
 994,Vergerin,,,,994,Vergerin
