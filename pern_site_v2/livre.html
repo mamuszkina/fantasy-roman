@@ -11,16 +11,19 @@
 </head>
 <body>
   <main class="page-shell">
+    <a class="floating-vote-button" href="vote.html">Voter</a>
     <nav class="top-nav"><a href="index.html">← Accueil</a></nav>
     <section class="hero-card compact">
       <p class="eyebrow">Exploration</p>
       <h1>Explorer un livre</h1>
-      <p>Sélectionnez un titre pour afficher les tableaux générés à partir des CSV du dossier correspondant.</p>
+      <p>Sélectionnez un titre pour afficher les graphiques générés à partir des CSV du dossier correspondant.</p>
     </section>
 
-    <section class="panel">
-      <label for="bookSelect">Livre</label>
-      <select id="bookSelect"></select>
+    <section class="panel book-controls">
+      <div>
+        <label for="bookSelect">Livre</label>
+        <select id="bookSelect"></select>
+      </div>
       <button id="loadBookBtn" class="solid-btn">Afficher</button>
     </section>
 

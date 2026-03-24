@@ -4,123 +4,409 @@
       "nom": "La ballade de Pern",
       "slug": "la-ballade-de-pern",
       "folder": "la-ballade-de-pern",
-      "description": "Roman(s) actuellement disponibles pour l'exploration des tableaux de genre.",
-      "tableaux": [
+      "description": "Roman(s) actuellement disponibles pour l'exploration des graphiques de genre.",
+      "themes": [
         {
-          "id": "repartition",
+          "id": "genre_persos",
           "titre": "Répartition des personnages par genre",
-          "colonnes": [
-            "Genre",
-            "Effectif",
-            "Pourcentage (%)"
+          "sousTitre": "Effectifs et pourcentages de personnages par genre.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme",
+              "count": 800,
+              "percentage": 72.7,
+              "value": 72.7
+            },
+            {
+              "label": "Femme",
+              "count": 300,
+              "percentage": 27.3,
+              "value": 27.3
+            }
           ],
-          "lignes": [
-            [
-              "Homme",
-              800,
-              72.7
-            ],
-            [
-              "Femme",
-              300,
-              27.3
-            ]
-          ],
-          "note": "Note. Les pourcentages sont calculés sur l'ensemble des personnages recensés. Test du χ² contre une répartition égale entre genres observés : χ² = 227.27, p < 0,001."
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des personnages recensés. Test du χ² contre une répartition égale entre genres observés : χ² = 227.27, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "χ² = 227.27",
+            "significant": true,
+            "stars": "***"
+          }
         },
         {
-          "id": "mortalite",
+          "id": "morts",
           "titre": "Mortalité des personnages selon le genre",
-          "colonnes": [
-            "Genre",
-            "Morts",
-            "Total",
-            "Taux de mortalité (%)"
+          "sousTitre": "Taux de mortalité par genre, avec effectifs de morts.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme",
+              "count": 100,
+              "total": 800,
+              "percentage": 12.5,
+              "value": 12.5
+            },
+            {
+              "label": "Femme",
+              "count": 100,
+              "total": 300,
+              "percentage": 33.3,
+              "value": 33.3
+            }
           ],
-          "lignes": [
-            [
-              "Homme",
-              100,
-              800,
-              12.5
-            ],
-            [
-              "Femme",
-              100,
-              300,
-              33.3
-            ]
-          ],
-          "note": "Note. Le taux de mortalité correspond à morts / total dans chaque groupe. Test exact de Fisher sur le tableau mort/survie × genre : p < 0,001. À titre indicatif, χ² = 62.26, p < 0,001."
+          "note": "Note. Le taux de mortalité correspond à morts / total dans chaque groupe. Test exact de Fisher sur le tableau mort/survie × genre : p < 0,001. À titre indicatif, χ² = 62.26, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "Fisher; χ² = 62.26",
+            "significant": true,
+            "stars": "***"
+          }
         },
         {
-          "id": "configurations",
+          "id": "resume",
           "titre": "Configurations de présence des personnages",
-          "colonnes": [
-            "Catégorie",
-            "Effectif",
-            "Pourcentage (%)"
+          "sousTitre": "Répartition des scènes ou configurations selon le genre des personnages présents.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme seul",
+              "count": 27132,
+              "percentage": 49.9,
+              "value": 49.9
+            },
+            {
+              "label": "Femme seule",
+              "count": 10132,
+              "percentage": 18.6,
+              "value": 18.6
+            },
+            {
+              "label": "Homme avec homme",
+              "count": 9380,
+              "percentage": 17.3,
+              "value": 17.3
+            },
+            {
+              "label": "Femme avec femme",
+              "count": 1527,
+              "percentage": 2.8,
+              "value": 2.8
+            },
+            {
+              "label": "Homme avec femme",
+              "count": 6188,
+              "percentage": 11.4,
+              "value": 11.4
+            }
           ],
-          "lignes": [
-            [
-              "Homme seul",
-              27132,
-              49.9
-            ],
-            [
-              "Femme seule",
-              10132,
-              18.6
-            ],
-            [
-              "Homme avec homme",
-              9380,
-              17.3
-            ],
-            [
-              "Femme avec femme",
-              1527,
-              2.8
-            ],
-            [
-              "Homme avec femme",
-              6188,
-              11.4
-            ]
-          ],
-          "note": "Note. Les pourcentages sont calculés sur l'ensemble des configurations observées. Test du χ² contre une répartition égale entre catégories : χ² = 34624.45, p < 0,001."
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des configurations observées. Test du χ² contre une répartition égale entre catégories : χ² = 34624.45, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "χ² = 34624.45",
+            "significant": true,
+            "stars": "***"
+          }
         },
         {
           "id": "ttr",
           "titre": "Diversité lexicale associée aux personnages selon le genre",
-          "colonnes": [
-            "Genre",
-            "Tokens",
-            "Types",
-            "TTR (%)"
+          "sousTitre": "TTR par genre, avec rappel des types et des tokens.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Femme",
+              "count": 42,
+              "total": 52,
+              "percentage": 80.8,
+              "value": 80.8
+            },
+            {
+              "label": "Homme",
+              "count": 85,
+              "total": 98,
+              "percentage": 86.7,
+              "value": 86.7
+            }
           ],
-          "lignes": [
-            [
-              "Femme",
-              52,
-              42,
-              80.8
-            ],
-            [
-              "Homme",
-              98,
-              85,
-              86.7
-            ]
-          ],
-          "note": "Note. Le TTR (type-token ratio) est présenté en pourcentage. Aucun test de significativité n'est calculé automatiquement pour ce tableau ; un protocole de rééchantillonnage ou une modélisation dédiée serait préférable."
+          "note": "Note. Le TTR (type-token ratio) est présenté en pourcentage. Aucun test de significativité n'est calculé automatiquement pour ce graphique ; un protocole de rééchantillonnage ou une modélisation dédiée serait préférable.",
+          "significance": {
+            "pValue": null,
+            "label": "Pas de test automatique",
+            "significant": null,
+            "stars": "n.s."
+          }
         }
-      ]
+      ],
+      "features": {
+        "repartition_homme": 72.7,
+        "repartition_femme": 27.3,
+        "mortalite_homme": 12.5,
+        "mortalite_femme": 33.3,
+        "config_homme-seul": 49.9,
+        "config_femme-seule": 18.6,
+        "config_homme-avec-homme": 17.3,
+        "config_femme-avec-femme": 2.8,
+        "config_homme-avec-femme": 11.4,
+        "ttr_femme": 80.8,
+        "ttr_homme": 86.7
+      }
+    },
+    {
+      "nom": "La Ballade De Pern (Copy)",
+      "slug": "la-ballade-de-pern-copy",
+      "folder": "la-ballade-de-pern (copy)",
+      "description": "Corpus disponible sur le site.",
+      "themes": [
+        {
+          "id": "genre_persos",
+          "titre": "Répartition des personnages par genre",
+          "sousTitre": "Effectifs et pourcentages de personnages par genre.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme",
+              "count": 800,
+              "percentage": 72.7,
+              "value": 72.7
+            },
+            {
+              "label": "Femme",
+              "count": 300,
+              "percentage": 27.3,
+              "value": 27.3
+            }
+          ],
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des personnages recensés. Test du χ² contre une répartition égale entre genres observés : χ² = 227.27, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "χ² = 227.27",
+            "significant": true,
+            "stars": "***"
+          }
+        },
+        {
+          "id": "morts",
+          "titre": "Mortalité des personnages selon le genre",
+          "sousTitre": "Taux de mortalité par genre, avec effectifs de morts.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme",
+              "count": 100,
+              "total": 800,
+              "percentage": 12.5,
+              "value": 12.5
+            },
+            {
+              "label": "Femme",
+              "count": 100,
+              "total": 300,
+              "percentage": 33.3,
+              "value": 33.3
+            }
+          ],
+          "note": "Note. Le taux de mortalité correspond à morts / total dans chaque groupe. Test exact de Fisher sur le tableau mort/survie × genre : p < 0,001. À titre indicatif, χ² = 62.26, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "Fisher; χ² = 62.26",
+            "significant": true,
+            "stars": "***"
+          }
+        },
+        {
+          "id": "resume",
+          "titre": "Configurations de présence des personnages",
+          "sousTitre": "Répartition des scènes ou configurations selon le genre des personnages présents.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Homme seul",
+              "count": 27132,
+              "percentage": 49.9,
+              "value": 49.9
+            },
+            {
+              "label": "Femme seule",
+              "count": 10132,
+              "percentage": 18.6,
+              "value": 18.6
+            },
+            {
+              "label": "Homme avec homme",
+              "count": 9380,
+              "percentage": 17.3,
+              "value": 17.3
+            },
+            {
+              "label": "Femme avec femme",
+              "count": 1527,
+              "percentage": 2.8,
+              "value": 2.8
+            },
+            {
+              "label": "Homme avec femme",
+              "count": 6188,
+              "percentage": 11.4,
+              "value": 11.4
+            }
+          ],
+          "note": "Note. Les pourcentages sont calculés sur l'ensemble des configurations observées. Test du χ² contre une répartition égale entre catégories : χ² = 34624.45, p < 0,001.",
+          "significance": {
+            "pValue": 0.0,
+            "label": "χ² = 34624.45",
+            "significant": true,
+            "stars": "***"
+          }
+        },
+        {
+          "id": "ttr",
+          "titre": "Diversité lexicale associée aux personnages selon le genre",
+          "sousTitre": "TTR par genre, avec rappel des types et des tokens.",
+          "type": "horizontal-bar",
+          "bars": [
+            {
+              "label": "Femme",
+              "count": 42,
+              "total": 52,
+              "percentage": 80.8,
+              "value": 80.8
+            },
+            {
+              "label": "Homme",
+              "count": 85,
+              "total": 98,
+              "percentage": 86.7,
+              "value": 86.7
+            }
+          ],
+          "note": "Note. Le TTR (type-token ratio) est présenté en pourcentage. Aucun test de significativité n'est calculé automatiquement pour ce graphique ; un protocole de rééchantillonnage ou une modélisation dédiée serait préférable.",
+          "significance": {
+            "pValue": null,
+            "label": "Pas de test automatique",
+            "significant": null,
+            "stars": "n.s."
+          }
+        }
+      ],
+      "features": {
+        "repartition_homme": 72.7,
+        "repartition_femme": 27.3,
+        "mortalite_homme": 12.5,
+        "mortalite_femme": 33.3,
+        "config_homme-seul": 49.9,
+        "config_femme-seule": 18.6,
+        "config_homme-avec-homme": 17.3,
+        "config_femme-avec-femme": 2.8,
+        "config_homme-avec-femme": 11.4,
+        "ttr_femme": 80.8,
+        "ttr_homme": 86.7
+      }
     }
   ],
   "voteOptions": [
     "Le Seigneur des anneaux"
   ],
   "methodologyGithubUrl": "https://github.com/votre-compte/votre-depot",
-  "siteTitle": "Cartographie de genre dans les œuvres littéraires"
+  "siteTitle": "Cartographie de genre dans les œuvres littéraires",
+  "themeOrderOptions": [
+    {
+      "id": "alpha",
+      "label": "Ordre alphabétique"
+    },
+    {
+      "id": "women",
+      "label": "Pourcentage de personnages féminins"
+    }
+  ],
+  "pca": {
+    "available": true,
+    "featureNames": [
+      "config_femme-avec-femme",
+      "config_femme-seule",
+      "config_homme-avec-femme",
+      "config_homme-avec-homme",
+      "config_homme-seul",
+      "mortalite_femme",
+      "mortalite_homme",
+      "repartition_femme",
+      "repartition_homme",
+      "ttr_femme",
+      "ttr_homme"
+    ],
+    "explainedVariance": [
+      0.0,
+      0.0
+    ],
+    "points": [
+      {
+        "label": "La ballade de Pern",
+        "slug": "la-ballade-de-pern",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "La Ballade De Pern (Copy)",
+        "slug": "la-ballade-de-pern-copy",
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "arrows": [
+      {
+        "label": "config femme-avec-femme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "config femme-seule",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "config homme-avec-femme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "config homme-avec-homme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "config homme-seul",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "mortalite femme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "mortalite homme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "repartition femme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "repartition homme",
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "label": "ttr femme",
+        "x": 0.0,
+        "y": 1.0
+      },
+      {
+        "label": "ttr homme",
+        "x": 1.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

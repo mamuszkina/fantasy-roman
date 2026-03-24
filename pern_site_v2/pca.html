@@ -2,8 +2,9 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Explorer un thème</title>
+  <title>ACP des romans</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,24 +15,12 @@
     <a class="floating-vote-button" href="vote.html">Voter</a>
     <nav class="top-nav"><a href="index.html">← Accueil</a></nav>
     <section class="hero-card compact">
-      <p class="eyebrow">Thèmes</p>
-      <h1>Explorer un thème dans tous les romans</h1>
-      <p>Sélectionnez un thème puis choisissez l’ordre d’affichage des romans : alphabétique ou selon le pourcentage de personnages féminins.</p>
+      <p class="eyebrow">Analyse factorielle</p>
+      <h1>ACP des informations de genre</h1>
+      <p>Les romans sont projetés dans un espace à deux dimensions. Les flèches représentent les variables qui structurent le plus les écarts entre œuvres.</p>
     </section>
 
-    <section class="panel compare-controls">
-      <div>
-        <label for="themeSelect">Thème</label>
-        <select id="themeSelect"></select>
-      </div>
-      <div>
-        <label for="orderSelect">Ordre des romans</label>
-        <select id="orderSelect"></select>
-      </div>
-      <button id="loadThemeBtn" class="solid-btn">Afficher</button>
-    </section>
-
-    <section id="themeContent" class="theme-grid"></section>
+    <section id="pcaContent" class="stack"></section>
   </main>
   <script src="script.js"></script>
 </body>
