@@ -15,7 +15,7 @@ BOOKS_DIR = ROOT / "books"
 SITE_DATA_PATH = ROOT / "site-data.json"
 
 METHODOLOGY_GITHUB_URL = "https://github.com/votre-compte/votre-depot"
-VOTE_OPTIONS = ["Le Seigneur des anneaux"]
+VOTE_OPTIONS = ["Le Seigneur des anneaux", "La roue du temps", "Les annales du disque monde"]
 
 BOOK_METADATA = {
     "la-ballade-de-pern": {
@@ -100,7 +100,7 @@ def build_table_repartition(path: Path) -> tuple[dict, dict]:
         for _, r in df.iterrows()
     ]
     note = (
-        "Note. Les pourcentages sont calculés sur l'ensemble des personnages recensés. "
+        "Note : Les pourcentages sont calculés sur l'ensemble des personnages. "
         f"Test du χ² contre une répartition égale entre genres observés : χ² = {stat:.2f}, {fmt_p(p)}."
     )
     features = {f"repartition_{slugify(str(r['Genre']))}": pct(r["Pourcentage"]) for _, r in df.iterrows()}
@@ -133,7 +133,7 @@ def build_table_morts(path: Path) -> tuple[dict, dict]:
         for _, r in df.iterrows()
     ]
     note = (
-        "Note. Le taux de mortalité correspond à morts / total dans chaque groupe. "
+        "Note : Le taux de mortalité correspond à morts / total dans chaque groupe. "
         f"Test exact de Fisher sur le tableau mort/survie × genre : {fmt_p(p_fisher)}. "
         f"À titre indicatif, χ² = {chi2:.2f}, {fmt_p(p_chi)}."
     )
@@ -173,7 +173,7 @@ def build_table_resume(path: Path) -> tuple[dict, dict]:
         for _, r in df.iterrows()
     ]
     note = (
-        "Note. Les pourcentages sont calculés sur l'ensemble des configurations observées. "
+        "Note : Les pourcentages sont calculés sur l'ensemble des configurations observées. "
         f"Test du χ² contre une répartition égale entre catégories : χ² = {stat:.2f}, {fmt_p(p)}."
     )
     features = {f"config_{slugify(labels.get(r['categorie'], r['categorie']))}": pct(r["Pourcentage"]) for _, r in df.iterrows()}
@@ -202,7 +202,7 @@ def build_table_ttr(path: Path) -> tuple[dict, dict]:
         for _, r in df.iterrows()
     ]
     note = (
-        "Note. Le TTR (type-token ratio) est présenté en pourcentage. "
+        "Note : Le TTR (type-token ratio) est présenté en pourcentage. "
         "Aucun test de significativité n'est calculé automatiquement pour ce graphique ; "
         "un protocole de rééchantillonnage ou une modélisation dédiée serait préférable."
     )
